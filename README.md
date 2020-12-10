@@ -22,7 +22,7 @@ function m0(){
     echo "\e[0m";
 }
 # show git branch info
-function git_branch() {
+function _git_branch_name() {
    branch="`git branch 2>/dev/null | grep "^\*" | sed -e "s/^\*\ //"`"
    if [ "${branch}" != "" ];then
        if [ "${branch}" = "(no branch)" ];then
