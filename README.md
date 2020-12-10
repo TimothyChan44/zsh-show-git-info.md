@@ -12,12 +12,15 @@ tag3: $PS1
 
 # turn on colorful mode:
 autoload -U colors && colors;
+### cyan-blue
 function m32(){
     echo "\e[01;32m";
 }
+### green
 function m36(){
     echo "\e[01;36m";
 }
+### white
 function m0(){
     echo "\e[0m";
 }
