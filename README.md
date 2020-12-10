@@ -1,0 +1,1 @@
+# zsh-show-git-info.md
