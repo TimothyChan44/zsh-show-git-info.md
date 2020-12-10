@@ -1,4 +1,8 @@
 # zsh-show-git-info.md
+
+tag1: zsh
+tag2: git branch
+tag3: $PS1
 ```
 # vim ~/.zshrc
 
