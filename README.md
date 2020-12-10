@@ -1,8 +1,8 @@
 # zsh-show-git-info.md
-
+```
 # vim ~/.zshrc
 
-```
+
 # turn on colorful mode:
 autoload -U colors && colors;
 function m32(){
