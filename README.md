@@ -40,6 +40,7 @@ function _git_is_dirty() {
 }
 autoload -U promptinit && promptinit;
 cd /Users/game-netease/Documents/win-workspace/gdlcdn
-PS1="%n@%m \$(m36)%1~\$(m0) \$(m32)\$(_git_branch_name)\$(_git_is_dirty)\$(m0) \$ ";
+PROMPT="%n@%m %{$fg[cyan]%}%1~%{$fg[white]%} %{$fg[green]%}\$(_git_branch_name)\$(_git_is_dirty)%{$fg[white]%} \$ ";
+RPROMPT="[%{$fg[yellow]%}%?%{$reset_color%}]"
 setopt prompt_subst;
 ```
